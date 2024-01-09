@@ -1,0 +1,300 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 12;
+}
+
+.img {
+    height: 80px;
+    margin-left: 70px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: 90px;
+    margin-top: 9px;
+}
+
+.nav-link {
+    border-right: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+#aborder {
+    border: none;
+}
+
+#Home {
+    display: flex;
+
+    box-shadow: 5px 5px 15px 45px rgba(233, 230, 230, 0.938);
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.homeleft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mainimg {
+    height: 450px;
+    width: 550px;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+#heading1 {
+    font-size: 48px;
+    margin-top: 160px;
+    margin-left: 50px;
+}
+
+#heading2 {
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+#btn1 {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 130px;
+}
+
+#btn2 {
+    border: none;
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    width: 130px;
+}
+
+.btt {
+    display: flex;
+    gap: 20px;
+
+}
+
+#btn1:hover {
+    background-color: yellow;
+    color: black;
+    transform: translateY(-10px);
+}
+
+#btn2:hover {
+    background-color: black;
+    color: white;
+    transform: translatey(-10px);
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    box-shadow: 10px 10px yellow;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 70px;
+}
+
+#vdocontrol {
+    box-shadow: 1px 1px 20px 1px white;
+    border-radius: 30px;
+}
+
+.video {
+    height: 350px;
+    width: 500px;
+    border-radius: 30px;
+
+}
+
+#discription {
+    color: white;
+    margin: 40px;
+    text-align: justify;
+}
+
+#heading3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+#heading4 {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+}
+
+#Pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+#about1 {
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 15px;
+    padding: 25px;
+    font-size: 17px;
+    width: 300px;
+
+}
+
+#about1:hover {
+    transform: translateY(-10px);
+}
+
+#pro {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 290px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#MODERATE {
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    width: 290px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#Images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+#product {
+    box-shadow: 0px 0px 6px 5px #29282894;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#heading5 {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#email {
+    padding: 20px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#btn3 {
+    border: none;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    width: 300px;
+    background-color: yellow;
+
+}
+
+#btn3:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-10px);
+}
+
+#nav {
+    background-color: rgba(90, 87, 87, 0.945);
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding: 20px;
+}
+
+#nav-link {
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+#nav-link:hover {
+    color: yellow;
+}
+
+
+@media screen and (max-width:1200px) {
+    #about {
+        flex-direction: column;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+    #nav {
+        flex-direction: row;
+    }
+
+    #Home {
+        flex-direction: column;
+    }
+
+    .btt {
+        flex-direction: column;
+    }
+
+}
