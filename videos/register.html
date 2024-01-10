@@ -24,16 +24,28 @@
         </header>
         <div class="B">
             <div class="A">
-                <h1 class="main">ICOESS Registration page<h1>
+                <h1 class="main">Registration page<h1>
+                    <form action="../watch.html#Home" onsubmit="return button()" >
                         <h5 class="main e">Form Assignment</h5>
                         <label class="main">Username or Email</label><br>
-                        <input type="text" class="b"><br>
+                        <input type="text" class="b" id="user"><br>
                         <label class="main">Password</label><br>
-                        <input type="text" class="b"><br>
-                        <a href="#" class="main d">Forgot Your Password?</a><br><br>
-                        <button class="c">Login</button>
+                        <input type="text" class="b" id="Password"><br>
+                        <!-- <a href="#" class="main d">Forgot Your Password?</a><br><br> -->
+                        <button type="submit" class="c">Login</button>
+                    </form>
             </div>
         </div>
-        
+        <script>
+          function button(){
+            const user = document.getElementById("user").value;
+            const Password = document.getElementById("Password").value;
+            if (user =='' || Password =='') {
+                alert('fill all details')
+            return false
+            }
+
+          }
+        </script>
     </body>
 </html>
